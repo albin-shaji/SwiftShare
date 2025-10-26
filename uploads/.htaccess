@@ -1,0 +1,17 @@
+# Disable all handlers and Mimetypes
+RemoveHandler .php .phtml .php3 .php4 .php5 .php7 .phps .cgi .pl .py .rb .sh .asp .aspx .html .htm .xhtml .shtm .shtml .xml .js
+RemoveType .php .phtml .php3 .php4 .php5 .php7 .phps .cgi .pl .py .rb .sh .asp .aspx .html .htm .xhtml .shtm .shtml .xml .js
+
+# Explicitly set the handler for all files in this directory to a safe one (e.g., plain text or a specific type)
+# This is a stronger measure. You can choose a safe type like application/octet-stream.
+<Files *>
+    SetHandler None
+    SetHandler default-handler
+    ForceType application/octet-stream
+</Files>
+
+# You can also disable PHP engine specifically, though the above is more comprehensive
+php_flag engine off
+
+# Prevent directory listing (see next point)
+Options -Indexes
