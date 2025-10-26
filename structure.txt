@@ -1,0 +1,20 @@
+.
+├── SWIFTSHARE/
+│   ├── expired_files/
+│   │   └── .htaccess
+│   ├── js/
+│   │   └── main.js
+│   ├── logo/
+│   │   ├── logo-512x512.png
+│   │   └── swiftshare_logo.svg
+│   ├── php/
+│   │   ├── cleanup_log.txt
+│   │   ├── cleanup.php
+│   │   ├── config.php
+│   │   ├── download.php
+│   │   └── upload.php
+│   ├── uploads/
+│   │   └── .htaccess
+│   ├── DATABASE.SQL
+│   ├── index.html
+│   └── manifest.json
