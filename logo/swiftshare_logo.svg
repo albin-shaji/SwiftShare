@@ -1,0 +1,32 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>SwiftShare Logo</title>
+  <desc>A modern logo for SwiftShare, featuring a swift arrow design in indigo tones.</desc>
+
+  <rect width="512" height="512" fill="#020713" rx="96"/> <!-- Rounded background for favicon/placeholder shape -->
+
+  <!-- Main arrow pointing right, representing transfer/sharing -->
+  <path d="M160 256H384M384 256L304 176M384 256L304 336" stroke="url(#gradientMain)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Swoosh element representing swiftness/speed, layered behind -->
+  <path d="M128 384C180 300 280 200 384 128" stroke="url(#gradientAccent)" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+
+  <!-- Linear Gradient for main arrow (similar to your background) -->
+  <defs>
+    <linearGradient id="gradientMain" x1="160" y1="256" x2="384" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4f46e5"/> <!-- Darker Indigo -->
+      <stop offset="1" stop-color="#6366f1"/> <!-- Lighter Indigo -->
+    </linearGradient>
+    <!-- Linear Gradient for swoosh (a bit lighter for accent) -->
+    <linearGradient id="gradientAccent" x1="128" y1="384" x2="384" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818cf8"/> <!-- Lighter Indigo/Purple -->
+      <stop offset="1" stop-color="#e0e7ff"/> <!-- Very Light Indigo -->
+    </linearGradient>
+  </defs>
+</svg>
+
+
+
+
+
+
+
